@@ -1,0 +1,94 @@
+abdul-rhman@abdul-rhman-virtualbox:/$ sudo su
+[sudo] password for abdul-rhman: 
+root@abdul-rhman-virtualbox:/# cd /home
+root@abdul-rhman-virtualbox:/home# mkdir task
+root@abdul-rhman-virtualbox:/home# ls
+abdul-rhman  task
+root@abdul-rhman-virtualbox:/home# cd task
+root@abdul-rhman-virtualbox:/home/task# mkdir abdelrhman1 abdelrhman2
+root@abdul-rhman-virtualbox:/home/task# ls
+abdelrhman1  abdelrhman2
+root@abdul-rhman-virtualbox:/home/task# cd abdelrhman1
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat > file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat > file2.txt
+this is file 2
+Abdulrahman amgad mohamed
+operating system
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat > file3.txt
+^C
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat file3.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls
+file1.txt  file2.txt  file3.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cp file1.txt /home/task/abdelrhman2
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cd ../
+root@abdul-rhman-virtualbox:/home/task# cd abdelrhman2
+root@abdul-rhman-virtualbox:/home/task/abdelrhman2# ls
+file1.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman2# cd ../..
+root@abdul-rhman-virtualbox:/home# ls |grep a|grep A
+root@abdul-rhman-virtualbox:/home# ls
+abdoessam15  task
+root@abdul-rhman-virtualbox:/home# cd task
+root@abdul-rhman-virtualbox:/home/task# ls |grep a|grep A
+root@abdul-rhman-virtualbox:/home/task# ls 
+abdelrhman1  abdelrhman2
+root@abdul-rhman-virtualbox:/home/task# cd abdelrhman1
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls
+file1.txt  file2.txt  file3.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat > abdo.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# cat > abdo.txt
+dfhghdghdg^C
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls
+abdelrhman.txt  abdelrhman.txt  file1.txt  file2.txt  file3.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls |grep a|grep A
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | grep a| grep A
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls
+abdelrhman.txt abdelrhman.txt  file1.txt  file2.txt  file3.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | grep a
+ahmed.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | grep A
+abdo.txt
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | wc-1
+wc-1: command not found
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | wc-l
+wc-l: command not found
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | wc l
+wc: l: No such file or directory
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | Wc-l
+Wc-l: command not found
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | WC-l
+WC-l: command not found
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls -1 | wc -l
+5
+root@abdul-rhman-virtualbox:/home/task/abdelrhman1# ls | wc -l
+5
+root@abdul-rhman-virtualbox:/home/abdul-rhman# touch language.c
+root@abdul-rhman-virtualbox:/home/abdul-rhman# gcc -o helloahmed language.c
+root@abdul-rhman-virtualbox:/home/abdul-rhman# ./a.out language c
+oot@abdul-rhman-virtualbox:/home/abdul-rhman# date
+Thu 29 Apr 2021 12:45:53 AM PDT
+root@abdul-rhman-virtualbox:/home/abdul-rhman# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@abdul-rhman-virtualbox:/home/abdul-rhman# pwd
+/home/abdul-rhman
